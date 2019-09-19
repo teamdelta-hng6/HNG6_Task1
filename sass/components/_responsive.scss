@@ -1,0 +1,31 @@
+@media ( min-width: 400px) and (max-width: 800px) {
+  .container {
+    width: 70% !important;
+    height: 462px !important;
+  }
+
+  .signin-container,
+  .signup-container {
+    flex-direction: column;
+  }
+
+  .message {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 90% !important;
+    height: 462px !important;
+  }
+
+  .signin-container,
+  .signup-container {
+    flex-direction: column;
+  }
+
+  .message {
+    display: none;
+  }
+}
